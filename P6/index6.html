@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>P6</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    .slider {
+      background: url("./img/caleta.jpg");
+      height: 380px;
+      background-size: 100%;
+
+
+    }
+
+    .imagen {
+      width: 380px;
+      height: 220px;
+    }
+   body {
+    background: url("./img/light-veneer.png");
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand ml-4" href="#">
+        CARNAVAL DE CADIZ
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Calendario</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Modalidades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Comparsa</a>
+              <a class="dropdown-item" href="#">Chirigota</a>
+              <a class="dropdown-item" href="#">Cuarteto</a>
+            </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid text-center slider text-white py-5 bg-primary">
+  </div>
+  
+  <div class="container py-5 contenedor">
+    <h1>Carnaval 2019</h1>
+    <p class="lead">Información sobre las mejores comparsas del pasado año</p>
+    <audio width="300" height="32" src="./media/caleta.mp3" controls="controls" autoplay="autoplay" preload="">
+    </audio>
+    <hr>
+    <div class="card-deck mb-3 text-center justify-content-center py-4">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Los Carnivales</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/carnivales.jpg" width="500px" height="500px" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Los Luceros</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/luceros.jpg" width="500px" height="500px" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">La Gaditanissima</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/gaditanisima.jpg" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">El Marqués de Cádiz</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/marques.jpg" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Los Gadiritas</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/gadiritas.jpg" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">La Vida es Bella</h4>
+        </div>
+        <div class="card-body">
+          <img src="./img/bella.jpeg" class="img-fluid imagen">
+          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+            data-target="#exampleModalLong">Ver información</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Audios</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Aquí puedes escuchar un pequeño audio de la comparsa</p>
+            <audio width="300" height="32" src="./media/caleta.mp3" controls="controls" autoplay="autoplay" preload="">
+            </audio>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class=" footer container-fluid bg-dark text-center text-white">
+    <div class="row pt-2">
+      <div class="col-lg-4 col-sm-12">
+        <h4>¿Qué hacemos?</h4>
+        <ul class="list-unstyled pt-3">
+          <li>Información detallada</li>
+          <li>Seguimiento de jovenes promesas</li>
+          <li>Análisis de los equipos</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <h4>Redes sociales</h4>
+        <div class="row pt-3">
+          <div class="col-12">
+            <i class="fab fa-twitter-square fa-2x pr-4"></i>
+            <i class="fab fa-instagram fa-2x pr-4"></i>
+            <i class="fab fa-facebook-square fa-2x pr-4"></i>
+            <i class="fab fa-linkedin fa-2x pr-4"></i>
+          </div>
+        </div>
+  
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <h4>¿Quienes somos?</h4>
+        <ul class="list-unstyled pt-3">
+          <li>Joaquín Bono Pineda</li>
+          <li>joaquinbono.18@campuscamara.es</li>
+          <li>Alcalá de Guadaira, Sevilla</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Joaquín Bono
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery-3.3.1.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/e13faebda0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
